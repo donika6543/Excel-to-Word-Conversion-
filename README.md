@@ -1,56 +1,55 @@
-📄 Excel to Word Converter (Java + Apache POI)
+Excel to Word Converter (Java + Apache POI)
 
-A simple Java application that converts Excel (.xlsx) data into a formatted Word (.docx) table using Apache POI.
-
-This project demonstrates file handling, Apache POI usage, and document generation in Java.
-
-🚀 Features
+ A simple Java application that converts Excel (.xlsx) data into a formatted Word (.docx) table using Apache POI.
+ This project demonstrates file handling, Apache POI usage, and document generation in Java.
+ 
+Features
 
 Read data from Excel (.xlsx)
 
-Convert Excel rows into Word table format
+ Convert Excel rows into Word table format
 
-Preserve row and column structure
+ Preserve row and column structure
 
 Handle different cell types:
 
-String
+ String
 
-Numeric
+ Numeric
 
-Boolean
+ Boolean
 
-Formula
+ Formula
 
-Date
+ Date
 
-Automatically generate Word document
+ Automatically generate Word document
 
-🛠 Tech Stack
+ Tech Stack
 
-Java
+ Java
 
-Apache POI
+ Apache POI
 
-IntelliJ IDEA
+ IntelliJ IDEA
 
-Maven
+ Maven
 
-📂 Project Structure
-Excel-To-Word-Converter
-│
-├── src
-│   └── main/java/org/example/Main.java
-│
-├── data
-│   └── Employee details.xlsx
-│
-├── output
-│   └── Employee list.docx (Generated)
-│
-└── pom.xml
+Project Structure
+ Excel-To-Word-Converter
+ │
+ ├── src
+ │   └── main/java/org/example/Main.java
+ │
+ ├── data
+ │   └── Employee details.xlsx
+ │
+ ├── output
+ │   └── Employee list.docx (Generated)
+ │
+ └── pom.xml
 
-📦 Maven Dependencies
+Maven Dependencies
 
 Add this inside your pom.xml:
 
@@ -72,7 +71,7 @@ Add this inside your pom.xml:
 
 </dependencies>
 
-▶️ How to Run
+How to Run
 
 Clone the repository
 
@@ -90,12 +89,12 @@ Run Main.java
 
 The Word file will be generated inside the output folder.
 
-📊 Example Excel Input
+Example Excel Input
 Emp ID	Name	Department	Salary
 101	Aisha Khan	HR	45000
 102	Rahul Verma	IT	65000
 
-💡 Future Improvements
+Future Improvements
 
 Add header styling (bold, background color)
 
